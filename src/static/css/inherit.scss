@@ -1,0 +1,10 @@
+/*
+继承类样式，解决多次复用样式
+*/
+
+// 弹性布局 垂直+水平
+%flex-c-s{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,8 @@
+/*
+混合复用，避免大量重复代码
+
+*/
+
+@mixin font-s($size){
+  font-size: $size
+}
