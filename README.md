@@ -2,6 +2,16 @@
 基于uni-app实现h5端及各小程序端封装端简易框架，git clone就可以用了
 
 # 目录结构
+|一级目录| 二级目录|三级目录|
+|:----: | :----:| :----:|
+| src   |       |       |
+|       | api   |       |
+|       | fetct | 交互封装get，post|
+|       | servers |  接口整理存放 |
+|       | api   |       |
+|       | api   |       |
+|       | api   |       |
+|       | api   |       |
 src
     - api         
         - fetct       交互封装get，post
