@@ -3,27 +3,16 @@
 
 # 目录结构
 src
-
-  └─api
-  
-    └─fetct       交互封装get，post
-
-    └─servers     接口整理存放
-
-  └─commom        公共类方法目录
-
+    - api         
+        - fetct       交互封装get，post
+        - servers     接口整理存放
+    - commom        公共类方法目录
     └─utils       正则验证
-
   └─components    公共组件
-
   └─static        静态资源目录  
-
     └─css         使用scss，里面有继承，混合等scss
-
     └─image       静态本地图片存放
-
     └─icon        图标
-    
   └─page          项目页面
 
 vue.config.json   webpack配置
