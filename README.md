@@ -2,20 +2,85 @@
 基于uni-app实现h5端及各小程序端封装端简易框架，git clone就可以用了
 
 # 目录结构
-|一级目录| 二级目录|三级目录|备注|
-|:----: | :----:| :----:｜ :----:|
-| src   |       |       |        ｜
-|       | api   |       |        ｜
-|       |       | fetct |交互封装get，post|
-|       |       | servers|接口整理存放 |
-|       | commom|       ｜公共类方法目录|
-|       |       ｜ utils | 正则验证 |
-|       |components|     ｜公共类方法目录|
-|       | static |       |静态资源目录 ｜
-|       |        | css   | 使用scss，里面有继承，混合等scss｜
-|       |        | image | 静态本地图片存放  ｜
-|       |        | icon  | 图标｜
-|       | page   |       | 项目页面  ｜
-|       | vue.config.json|       |webpack配置 ｜
+<table>
+    <tr>
+        <th>根目录</th>
+        <th>子目录</th>
+        <th>子目录</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>src</th>
+        <th></th>
+        <th></th>
+        <th>主代码</th>
+    </tr>
+     <tr>
+        <th>--</th>
+        <th>api</th>
+        <th></th>
+        <th>API接口存放</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>--</th>
+        <th>fetct</th>
+        <th>交互封装get，post</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>--</th>
+        <th>servers</th>
+        <th>接口整理存放</th>
+    </tr>
+    <tr>
+        <th>--</th>
+        <th>static</th>
+        <th></th>
+        <th>静态资源存放</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>--</th>
+        <th>css</th>
+        <th>使用scss，里面有继承，混合等scss</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>--</th>
+        <th>image</th>
+        <th>静态本地图片存放</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>--</th>
+        <th>icon</th>
+        <th>静态资源图标</th>
+    </tr>
+    <tr>
+        <th>--</th>
+        <th>common</th>
+        <th></th>
+        <th>项目公共方法</th>
+    </tr>
+    <tr>
+        <th>--</th>
+        <th>components</th>
+        <th></th>
+        <th>公共组件</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>view</th>
+        <th></th>
+        <th>前端界面</th>
+    </tr>
+    <tr>
+        <th>vue.config.json</th>
+        <th></th>
+        <th></th>
+        <th>webpack配置</th>
+    </tr>
+</table>
 
 
